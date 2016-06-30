@@ -10,6 +10,6 @@ int main(){
          printf("leap year");
     else
          printf("not a leap year");
-  
+  	getch();
     return 0;
 }
