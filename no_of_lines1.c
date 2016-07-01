@@ -4,7 +4,7 @@
 int main( )
 {
 char ch;
-int line=0, space=0, ct=0;
+int line=0;
 clrscr( );
 printf("Enter the required no. of lines:\n");
 while((ch=getchar( ))!=EOF)
