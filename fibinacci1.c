@@ -2,7 +2,7 @@
 #include<conio.h>
 int main()
 {
-    int i, n, t1 = 0, t2 = 1, nextTerm = 0;
+    int i, n, t1 = 0, t2 = 1, next = 0;
 	clrscr();
     printf("Enter the number of terms: ");
     scanf("%d",&n);
@@ -13,10 +13,10 @@ int main()
    
     for (i=3; i <= n; ++i)
     {
-        nextTerm = t1 + t2;
+        next = t1 + t2;
         t1 = t2;
-        t2 = nextTerm;
-        printf("%d, ",nextTerm);
+        t2 = next;
+        printf("%d, ",next);
     }
 	getch();
     return 0;
