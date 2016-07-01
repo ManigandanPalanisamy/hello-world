@@ -18,8 +18,8 @@ public class NumberToWord
     n = scanf.nextInt();                
      while(n!=0)
 	{
-		t=n%10;
-		n=n/10;
+		t= n%10;
+		n= n/10;
 		a.pw(t);
 	}
 }
